@@ -8,21 +8,30 @@ __pycache__/
 venv/
 .env
 
-# Build and test artifacts
+# Dataset (não versionar)
+dataset/
+
+# Modelos treinados
+checkpoints/
+
+# Saídas do treinamento
+outputs/
+
+# Testes automatizados
 .pytest_cache/
 .coverage
 htmlcov/
 .mypy_cache/
 .ruff_cache/
 
-# Project outputs
-checkpoints/
-outputs/
-
 # Notebook checkpoints
 .ipynb_checkpoints/
 
-# OS and editor files
+# Sistema e IDE
 .DS_Store
 Thumbs.db
 .vscode/
+
+# Dataset (não versionar)
+dataset/*
+!dataset/.gitkeep
