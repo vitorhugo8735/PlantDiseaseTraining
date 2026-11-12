@@ -5,11 +5,14 @@ __pycache__/
 *.so
 *.egg-info/
 .venv/
+.venv-*/
 venv/
 .env
 
 # Dataset (não versionar)
 dataset/
+dataset_redistributed/
+$tmp/
 
 # Modelos treinados
 checkpoints/
